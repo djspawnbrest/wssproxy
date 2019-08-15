@@ -1,0 +1,28 @@
+{
+  "name": "wssproxy",
+  "version": "1.0.0",
+  "description": "wss <=> ws proxy for chatui task",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/djspawnbrest/wssproxy.git"
+  },
+  "keywords": [
+    "wss",
+    "ws",
+    "proxy"
+  ],
+  "author": "djspawnbrest <djspawnbrest@gmail.com>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/djspawnbrest/wssproxy/issues"
+  },
+  "homepage": "https://github.com/djspawnbrest/wssproxy#readme",
+  "dependencies": {
+    "dotenv": "^8.0.0",
+    "ws": "^7.1.2"
+  }
+}
